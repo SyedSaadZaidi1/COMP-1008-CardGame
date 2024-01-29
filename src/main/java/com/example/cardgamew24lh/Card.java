@@ -1,4 +1,4 @@
-package org.example.comp1009w2v2;
+package com.example.cardgamew24lh;
 
 import javafx.scene.image.Image;
 
@@ -105,5 +105,8 @@ public class Card {
     public Image getImage(){
         String imageName = "imgs/" + faceName + "_of_" + suit+".png";
         return new Image(Card.class.getResourceAsStream(imageName));
+    }
+    public Image getBackOfCardImage(){
+        return new Image(Card.class.getResourceAsStream("images/back_of_card.png"));
     }
 }

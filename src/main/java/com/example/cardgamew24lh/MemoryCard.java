@@ -1,9 +1,9 @@
 package com.example.cardgamew24lh;
 
-public class MemoryCard extends org.example.comp1009w2v2.Card {
+public class MemoryCard extends Card {
     private boolean matched;
 
-    public MemoryCard(String suit, String faceName, boolean matched) {
+    public MemoryCard(String suit, String faceName) {
         super(suit, faceName);
         this.matched = false;
     }

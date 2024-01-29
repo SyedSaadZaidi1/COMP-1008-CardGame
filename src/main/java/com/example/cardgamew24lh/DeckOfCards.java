@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DeckOfCards {
 
-    private ArrayList<org.example.comp1009w2v2.Card> deck;
+    private ArrayList<com.example.cardgamew24lh.Card> deck;
 
     /**
      * This is a Constructor. It will allocate system memory for
@@ -17,19 +17,20 @@ public class DeckOfCards {
     public DeckOfCards() {
         deck = new ArrayList<>();
 
-        List<String> suits = org.example.comp1009w2v2.Card.getValidSuits();
-        List<String> faceNames = org.example.comp1009w2v2.Card.getValidFaceName();
+        List<String> suits = com.example.cardgamew24lh.Card.getValidSuits();
+        List<String> faceNames = com.example.cardgamew24lh.Card.getValidFaceName();
 //Looping against card objects -faceNames & suits to build a deck
         for(int i=0; i <suits.size(); i++){
             for(int x=0; x <faceNames.size(); x++){
                 //Building the deck, adding Cards to deck one at a time
-                deck.add(new org.example.comp1009w2v2.Card((suits.get(i)),faceNames.get(x)));
+                deck.add(new com.example.cardgamew24lh.Card((suits.get(i)),faceNames.get(x)));
+
             }
         }
 
     }
 
-    public org.example.comp1009w2v2.Card dealTopCard(){
+    public com.example.cardgamew24lh.Card dealTopCard(){
         if (deck.size()>0)
             return deck.remove(0);
         return null;
