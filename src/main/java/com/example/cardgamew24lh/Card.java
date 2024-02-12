@@ -64,7 +64,7 @@ public class Card {
     }
 
     public static List<String> getValidFaceName(){
-        return Arrays.asList("2","3","4","5","6","7","8","9","10","jack","queen","king","ace");
+        return Arrays.asList();
     }
 
     /** this method returns the color of the suit. Red for diamonds and hearts, black for clubs and spades
