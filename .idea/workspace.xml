@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3abd67-42c7-41d8-bf32-8e33067c3a70" name="Changes" comment="updated all classes" />
+    <list default="true" id="ab3abd67-42c7-41d8-bf32-8e33067c3a70" name="Changes" comment="updated all classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +86,7 @@
       <workItem from="1707158228898" duration="581000" />
       <workItem from="1707158820763" duration="3079000" />
       <workItem from="1707761435896" duration="46000" />
+      <workItem from="1707761980938" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="images and css class added">
       <option name="closed" value="true" />
@@ -117,11 +120,38 @@
       <option name="project" value="LOCAL" />
       <updated>1707761453273</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated all classes">
+      <option name="closed" value="true" />
+      <created>1707761994324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707761994324</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated all classes">
+      <option name="closed" value="true" />
+      <created>1707762275974</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707762275974</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="images and css class added" />
