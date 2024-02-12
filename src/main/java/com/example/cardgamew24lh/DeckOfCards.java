@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class DeckOfCards {
-
+    random = new int[];
     private ArrayList<com.example.cardgamew24lh.Card> deck;
 
     /**
